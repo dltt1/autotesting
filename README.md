@@ -1,1 +1,1 @@
-# autotesting
+# Тестирование Wildberries
