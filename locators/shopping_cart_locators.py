@@ -15,11 +15,13 @@ class CartLocators:
     # BUTTONS
     PAYING = (
         By.XPATH,
-        '//div[@class="basket-form__basket-section basket-section basket-pay j-b-basket-payment basket-section--flex basket-section--error"]//p/a[1]'
+        f'//div[@class="basket-form__basket-section basket-section basket-pay '
+        f'j-b-basket-payment basket-section--flex basket-section--error"]//p/a[1]'
     )
     MY_DATA = (
         By.XPATH,
-        '//div[@class ="basket-form__basket-section basket-section j-b-basket-user-data basket-user-data basket-section--flex basket-section--error"]//p/a[1]'
+        f'//div[@class ="basket-form__basket-section basket-section '
+        f'j-b-basket-user-data basket-user-data basket-section--flex basket-section--error"]//p/a[1]'
     )
     CONFIRM_ORDER = (By.XPATH, '//button[@name="ConfirmOrderByRegisteredUser"]')
     HOW_TO_ORDER = (By.XPATH, '//section[@class="footer__list-wrap footer__list-wrap--buyers"]//li[1]/a')

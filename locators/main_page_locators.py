@@ -34,27 +34,10 @@ class MainPageLocators:
     GEO = (By.XPATH, '//li[@class="simple-menu__item j-geocity-wrap"]')
     MAP = (By.XPATH, '//div[@class="geo-block__map"]/ymaps/ymaps/ymaps/ymaps[1]')
 
-    # AUTORIZATION
+    # AUTHORIZATION
     LOGIN = (By.XPATH, '//a[@data-wba-header-name="Login"]')
     PHONE = (By.XPATH, '//input[@class="input-item"]')
     ERROR_MESSAGE = (By.XPATH, '//span[@class="j-error-full-phone field-validation-error"]')
     REQ_CODE = (By.XPATH, '//button[@id="requestCode"]')
     CAPTCHA = (By.XPATH, '//h2[@class="sign-in-page__title"]')
 
-
-
-    # BUTTONS
-
-    # SWIPE = (By.XPATH, '//button[@class="swiper-button-prev"]')
-    # SLIDE = (By.XPATH, "//button[@aria-label='Dot slide]")
-    # BUTTON_SHOW_MORE = (By.XPATH, '//button[@class="btn-show-more"]')
-    # BUTTON_READ_NEXT = (By.XPATH, '//button[@class="seo-text__button-expand"]')
-    # BUTTON_HOW_TO_ORDER = (By.XPATH, '//li[@data-wba-footer-name="How_to_order"]')
-    # # BUTTON = "document.getElementsByClassName('swiper-slide promo__item')[2]"
-    # BUTTON = (By.XPATH, '//div[@class="swiper-container "]/ul[1]/li[1]')
-    # BUTTON_PAGINATION = (
-    #     By.XPATH,
-    #     '//ul[@class="swiper-pagination j-main-banners-pagination'
-    #     f'swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-bullets-dynamic"]/li[2]'
-    # )
-    # MAIN_CONTAINER = (By.XPATH, '//input[@class="in_tb j-tb-qnt count__numeric ignore"]')
