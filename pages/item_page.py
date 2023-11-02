@@ -31,7 +31,7 @@ class ItemPage(BasePage):
         return total
 
     def correct_total_price(self):
-        return int(self.element_is_visible(Item.TOTAL,5).text[:-2].replace(' ', ''))
+        return int(self.element_is_visible(Item.TOTAL, 5).text[:-2].replace(' ', ''))
 
     def correct_click_buttons(self):
         self.click(Item.FIRST_SALE_BUTTON, 5)
