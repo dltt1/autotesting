@@ -9,7 +9,7 @@ CURRENCY_LIST = [
     'Киргизский сом'
 ]
 
-
+# тестовое биба
 class CartLocators:
 
     # BUTTONS
